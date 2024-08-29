@@ -3,8 +3,6 @@ import "./globals.css";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { NextUIProvider } from "@nextui-org/system";
-import { Provider } from "react-redux";
-import { store } from "@/redux/store";
 import ClientProvider from "./clientProvider";
 
 const inter = Inter({ subsets: ["latin"] });
